@@ -1,3 +1,4 @@
+package model;
 
 public class ContaPoupanca extends Conta {
 
@@ -7,7 +8,7 @@ public class ContaPoupanca extends Conta {
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Poupança ===");
+		System.out.println("=== Extrato Conta PoupanÃ§a ===");
 		super.imprimirInfosComuns();
 	}
 }
